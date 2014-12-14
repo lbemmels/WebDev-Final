@@ -12,8 +12,8 @@ html {
     background-image: url("../img/dashes.jpg");
     background-repeat: repeat-x;
     background-color: white;
-    font-size: 1em;
-    line-height: 1.4;
+    font-size: 0.75em;
+    line-height: 1.2;
 }
 
 ::-moz-selection {
@@ -65,7 +65,7 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font: 12px/22px Helvetica, Helvetica Neue, Arial;
 }
 
 .wrapper {
@@ -113,6 +113,7 @@ nav a {
     text-align: center;
     text-decoration: none;
     font-weight: normal;
+    font-size: 1.2em;
 
     color: #f05223;
     background: white;
@@ -168,6 +169,7 @@ header {
 footer {
 	color: #555555;
 	background: white;
+	font-size: 0.75em;
 }
 section {
 	padding: 10px;
