@@ -13,7 +13,9 @@
         <link rel="stylesheet" href="../../css/normalize.min.css">
         <link rel="stylesheet" href="../../css/main.css">
 
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="../../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="../../js/main.js"></script>
+        
     </head>
 
     
@@ -24,7 +26,6 @@
 
         <div>
             <header class="wrapper clearfix">
-               <img src="../../img/logo_top_nav.png" alt="Lindsey Bemmels Logo">
                 <nav>
                     <ul>
                         <li><a href="../..">design</a></li>
@@ -32,6 +33,7 @@
                         <li><a href="../../Contact">contact</a></li>
                     </ul>
                 </nav>
+                <img src="../../img/logo_top_nav.png" alt="Lindsey Bemmels Logo">
             </header>
         </div>
 
@@ -39,7 +41,17 @@
             <div class="main wrapper clearfix">
 
                     <section>
-                    <img src="../../img/P1_Facebook.jpg" alt="Social Media">
+                    
+                    <div id="slide">
+					<img src="../../img/social1.jpg" id="imgslide" >
+					<div id="left_holder">
+					<img onClick="social(-1)" class="left" src="../../img/ArrowsLeft.png">
+					</div>
+					<div id="right_holder">
+					<img onClick="social(1)" class="right" src="../../img/ArrowsRight.png">
+					</div>
+					</div>
+                    
                     <h1>Social Media</h1>
                     <p>Branding for PreferredOne Insurance Company was applied to their social media sites including Facebook, LinkedIn, Google+, You Tube and Twitter. Managed appearance and content posted to these social media outlets.</p>
                     </section>

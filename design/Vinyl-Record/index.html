@@ -13,7 +13,9 @@
         <link rel="stylesheet" href="../../css/normalize.min.css">
         <link rel="stylesheet" href="../../css/main.css">
 
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="../../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="../../js/main.js"></script>
+        
     </head>
 
     
@@ -24,7 +26,6 @@
 
         <div>
             <header class="wrapper clearfix">
-               <img src="../../img/logo_top_nav.png" alt="Lindsey Bemmels Logo">
                 <nav>
                     <ul>
                         <li><a href="../..">design</a></li>
@@ -32,14 +33,26 @@
                         <li><a href="../../Contact">contact</a></li>
                     </ul>
                 </nav>
+                <img src="../../img/logo_top_nav.png" alt="Lindsey Bemmels Logo">
             </header>
         </div>
 
         <div class="main-container">
             <div class="main wrapper clearfix">
                     <section>
-                    <img src="../../img/Vinyl-Front.jpg" alt="Vinyl Record">                    <h1>Vinyl Record Design</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet mi erat. Nulla facilisi. Vivamus iaculis finibus mi, ac dictum tellus auctor eget. Integer aliquet, tellus at iaculis ornare, nisl magna ultricies dui, sed finibus enim erat non diam. Aenean aliquam cursus tortor, dignissim euismod lorem tincidunt vulputate.</p>
+                    
+                    <div id="slide">
+					<img src="../../img/vinyl1.jpg" id="imgslide" >
+					<div id="left_holder">
+					<img onClick="vinyl(-1)" class="left" src="../../img/ArrowsLeft.png">
+					</div>
+					<div id="right_holder">
+					<img onClick="vinyl(1)" class="right" src="../../img/ArrowsRight.png">
+					</div>
+					</div>                   									
+					
+					<h1>Vinyl Record Design</h1>
+                    <p>12" Vinyl double LP design with a modified gatefold and custom die cut. Abstract photography was taken for the designs imagery.  </p>
                     </section>
 
 

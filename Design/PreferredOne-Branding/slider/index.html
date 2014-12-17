@@ -13,7 +13,9 @@
         <link rel="stylesheet" href="../../css/normalize.min.css">
         <link rel="stylesheet" href="../../css/main.css">
 
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="../../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="../../js/main.js"></script>
+        
     </head>
 
     
@@ -24,7 +26,6 @@
 
         <div>
             <header class="wrapper clearfix">
-               <img src="../../img/logo_top_nav.png" alt="Lindsey Bemmels Logo">
                 <nav>
                     <ul>
                         <li><a href="../..">design</a></li>
@@ -32,6 +33,7 @@
                         <li><a href="../../Contact">contact</a></li>
                     </ul>
                 </nav>
+                <img src="../../img/logo_top_nav.png" alt="Lindsey Bemmels Logo">
             </header>
         </div>
 
@@ -39,11 +41,21 @@
             <div class="main wrapper clearfix">
 
                     <section>
-                    <img src="../../img/P1-Stickers.jpg" alt="PreferredOne Stickers">
-                    <h1>PreferredOne State Fair Campaign</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet mi erat. Nulla facilisi. Vivamus iaculis finibus mi, ac dictum tellus auctor eget. Integer aliquet, tellus at iaculis ornare, nisl magna ultricies dui, sed finibus enim erat non diam. Aenean aliquam cursus tortor, dignissim euismod lorem tincidunt vulputate.</p>
+                    
+                    <div id="slide">
+					<img src="../../img/p11.jpg" id="imgslide" >
+					<div id="left_holder">
+					<img onClick="p1(-1)" class="left" src="../../img/ArrowsLeft.png">
+					</div>
+					<div id="right_holder">
+					<img onClick="p1(1)" class="right" src="../../img/ArrowsRight.png">
+					</div>
+					</div>
+                    
+                    <h1>PreferredOne Branding</h1>
+                    <p>New branding guidelines were created for PreferredOne Insurance Company in 2012 and applied to all their existing marketing materials. These materials included brochures, consumer flyers, employer flyers, advertisements, HTML emails, presentations, the company website and mobile website.</p>
+                    
                     </section>
-
 
             </div> <!-- #main -->
         </div> <!-- #main-container -->

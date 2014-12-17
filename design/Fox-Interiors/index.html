@@ -13,7 +13,8 @@
         <link rel="stylesheet" href="../../css/normalize.min.css">
         <link rel="stylesheet" href="../../css/main.css">
 
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="../../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="../../js/main.js"></script>
     </head>
 
     
@@ -24,7 +25,6 @@
 
         <div>
             <header class="wrapper clearfix">
-               <img src="../../img/logo_top_nav.png" alt="Lindsey Bemmels Logo">
                 <nav>
                     <ul>
                         <li><a href="../..">design</a></li>
@@ -32,16 +32,31 @@
                         <li><a href="../../Contact">contact</a></li>
                     </ul>
                 </nav>
+                <img src="../../img/logo_top_nav.png" alt="Lindsey Bemmels Logo">
             </header>
         </div>
 
         <div class="main-container">
             <div class="main wrapper clearfix">
-                    <section>
-                    <img src="../../img/Fox_Logo.jpg" alt="Fox Interiors Logo">
+               
+                <section>
+                    
+                    <div id="slide">
+					<img src="../../img/fox1.jpg" id="imgslide" >
+					<div id="left_holder">
+					<img onClick="fox(-1)" class="left" src="../../img/ArrowsLeft.png">
+					</div>
+					<div id="right_holder">
+					<img onClick="fox(1)" class="right" src="../../img/ArrowsRight.png">
+					</div>
+					</div>
+					
+				</section>
+				
+				<section>
                     <h1>Fox Interiors</h1>
-                    <p>Metro based interior design company’s identity system created in 2009 for their company launch. Classic font logotype paired with a modern chair vector image reflects the company style as well as creates a theme to carry throughout company marketing pieces. This project was created while freelancing at Inizio Creative. Designed items include a logotype, vector art chair, business card and a promotional postcard.</p>
-                    </section>
+                    <p>Metro based interior design company’s identity system created in 2009 for their company launch. Classic font logotype paired with a modern chair vector image reflects the company style as well as creates a theme to carry throughout company marketing pieces. This project was created while freelancing at Inizio Creative. Other designed items include a logotype, vector art chair, business card and a promotional postcard.</p>
+                </section>
 
             </div> <!-- #main -->
         </div> <!-- #main-container -->

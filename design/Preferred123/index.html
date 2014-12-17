@@ -13,7 +13,9 @@
         <link rel="stylesheet" href="../../css/normalize.min.css">
         <link rel="stylesheet" href="../../css/main.css">
 
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="../../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="../../js/main.js"></script>
+        
     </head>
 
     
@@ -24,7 +26,6 @@
 
         <div>
             <header class="wrapper clearfix">
-               <img src="../../img/logo_top_nav.png" alt="Lindsey Bemmels Logo">
                 <nav>
                     <ul>
                         <li><a href="../..">design</a></li>
@@ -32,6 +33,7 @@
                         <li><a href="../../Contact">contact</a></li>
                     </ul>
                 </nav>
+                <img src="../../img/logo_top_nav.png" alt="Lindsey Bemmels Logo">
             </header>
         </div>
 
@@ -39,7 +41,17 @@
             <div class="main wrapper clearfix">
 
                     <section>
-                    <img src="../../img/Preferred123_Brochure.jpg" alt="Preferred123">
+                    
+                    <div id="slide">
+					<img src="../../img/define1.jpg" id="imgslide" >
+					<div id="left_holder">
+					<img onClick="define(-1)" class="left" src="../../img/ArrowsLeft.png">
+					</div>
+					<div id="right_holder">
+					<img onClick="define(1)" class="right" src="../../img/ArrowsRight.png">
+					</div>
+					</div>
+                    
                     <h1>Preferred123</h1>
                     <p>Preferred123 is a defined contribution health insurance product for PreferredOne Insurance Company. Starting with its inception in 2012, branding and product identity were created. The branding was applied to both print and online marketing pieces for the 2013 product rollout. These items included a logotype, flyers, brochure and website design.</p>
                     </section>
