@@ -14,7 +14,6 @@ html {
     background-color: white;
     font-size: 0.75em;
     line-height: 1.2;
-    border-bottom: 5px;
 }
 
 ::-moz-selection {
@@ -119,6 +118,7 @@ nav a {
 
     color: #f05223;
     background: white;
+    letter-spacing: 1.25px;
 }
 
 nav a:hover,
@@ -136,11 +136,11 @@ nav a:hover {
    ============== */
 
 .main {
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 .main article h1 {
-    font-size: 2em;
+    font-size: 1.35em;
 }
 
 .main aside {
@@ -170,7 +170,8 @@ header {
 }
 
 article {
-	padding: 0px 0px 0px 20px;
+	margin: 0px 0px 0px 30px;
+	padding: 15px;
 }
 
 footer {
@@ -181,61 +182,35 @@ footer {
 img		{
 	padding: 10px;
 }
-section {
 
-}	
+h1, h2, h3	{
+	color: #405d5b;
+	letter-spacing: 1.1px;		
+}
 
 section a:hover {
 	opacity: 0.75;	
 }
-
 .subnav {
 	text-align: left;
 	font-size: 90%;
 	list-style: none;
 	padding: 0px;
-	margin: 0px;
-	
+	margin: 0px;	
 }
 
 .subnav a{
 	font: 'Raleway', sans-serif;
 	color: #405d5b;
-	text-decoration: none;	
-	
+	text-decoration: none;
+	letter-spacing: 1.25px;	
 }
 
 .subnav a:hover {
 	font: 'Raleway', sans-serif;
-	color: #405d5b;
-	text-decoration: underline;	
-}
-
-#slide {
-	height: 375px;
-	width: 800px;
-	margin: 20px;
-	position: relative;
-
-}
-#imgslide {
-	height: 375px;
-	width: 800px;
-	position: absolute;
-}
-#left_holder {
-	height: 375px;
-	width: 100px;
-	position: absolute;
-	left: 0px;
-	top: 0px;
-}
-#right_holder {
-	height: 375px;
-	width: 100px;
-	position: absolute;
-	right: 0px;
-	top: 0px;
+	color: #c9cac9;
+	text-decoration: none;	
+	letter-spacing: 1.25px;
 }
 .left {
 	height: 30px;
@@ -268,6 +243,19 @@ section a:hover {
 
 .clear {
 	clear: both;
+}
+
+section a{
+	font: 'Raleway', sans-serif;
+	color: #405d5b;
+	text-decoration: none;
+	letter-spacing: 1.25px;	
+}
+section a:hover {
+	font: 'Raleway', sans-serif;
+	color: #c9cac9;
+	text-decoration: none;	
+	letter-spacing: 1.25px;
 }
 
 
